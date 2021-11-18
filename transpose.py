@@ -17,4 +17,5 @@ def transpose(song, goal_key):
 s1 = "F.C,F,Dm,Gm,C,F,Dm,Gm,C,F,Dm,Bb,C,F,Dm,Gm,C"
 s2 = "Eb.Eb,Gm,Ab,Eb,Gm,Ab,Bb7,Eb,Gm,Ab,Eb,Cm,Eb,Ab,Eb"
 
+new_key = input("Enter a new key: ").upper()
 print(transpose(s1, "A"))

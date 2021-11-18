@@ -12,7 +12,7 @@ def transpose(song, goal_key):
             result.append(notes[notes.index(chord[:-1]) + shift] + "7" + "m" * minor)
         else:
             result.append(notes[notes.index(chord) + shift] + "m" * minor)
-    return song, shift, ",".join(result)
+    return ",".join(result)
 
 s1 = "F.C,F,Dm,Gm,C,F,Dm,Gm,C,F,Dm,Bb,C,F,Dm,Gm,C"
 s2 = "Eb.Eb,Gm,Ab,Eb,Gm,Ab,Bb7,Eb,Gm,Ab,Eb,Cm,Eb,Ab,Eb"
